@@ -36,7 +36,6 @@ a {
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
-    outline: 1px solid red;
 }
 h1, h2, h3, p {
     margin-top: 0;
@@ -148,7 +147,6 @@ line-height: 1.192;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    outline: 1px solid white;
 }
 .button {
     margin: 0 auto;
@@ -330,16 +328,30 @@ line-height: 1.192;
     line-height: 1.875;
 }
 /* end main portfolio */
+/* end main site web studio */
 
 /* footer site */
 .footer {
+    height: 252px;
+    padding-top: 60px;
+
     background-color: var(--dark-background-color);
+}
+.footer-nav {
+    
+}
+.logo {
+    display: inline-block;
+    margin-bottom: 20px;
 }
 .footer .logo-text {
     color: var(--light-color-text);
 }
 .addres {
     font-style: normal;
+}
+.connection .item:not(:last-child) {
+    margin-bottom: 9px;
 }
 .connection .link-first {
     color: var(--light-color-text);
@@ -353,3 +365,4 @@ line-height: 1.192;
     font-size: 14px;
     line-height: 1.7;
 }
+/* end footer site */
