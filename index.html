@@ -25,8 +25,8 @@
           >Web<span class="logo-text">Studio</span></a
         >
 
-        <nav>
-          <ul class="site-nav list">
+        <nav class="navigation">
+          <ul class="site-nav">
             <li class="item">
               <a class="link current" href="./index.html">Студия</a>
             </li>
@@ -37,7 +37,7 @@
           </ul>
         </nav>
 
-        <ul class="contacts list">
+        <ul class="contacts">
           <li class="item">
             <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -51,8 +51,8 @@
     </header>
 
     <main>
-      <!--adv site web studio-->
-      <section class="adv">
+      <!--hero site web studio-->
+      <section class="hero">
         <div class="conteiner">
           <h1 class="slogan">
             Эффективные решения<br />
@@ -65,9 +65,9 @@
       <!--specifics site web studio-->
       <section class="section">
         <div class="conteiner">
-          <h2 class="title-specific">Особенности</h2>
+          <h2 class="visually-hidden">Особенности</h2>
 
-          <ul class="specific-items list">
+          <ul class="specific-items">
             <li class="item">
               <h3 class="subtitle">Внимание к деталям</h3>
               <p class="text">
@@ -107,8 +107,8 @@
         <div class="conteiner">
           <h2 class="title-works">Чем мы занимаемся</h2>
 
-          <ul class="works-site list">
-            <li class="item">
+          <ul class="works-site">
+            <li class="item-work">
               <img
                 src="./images/work/img1.jpg"
                 alt="Работа за компютером"
@@ -116,7 +116,7 @@
               />
             </li>
 
-            <li class="item">
+            <li class="item-work">
               <img
                 src="./images/work/img2.jpg"
                 alt="Работа с мобильным интерфейсом"
@@ -124,7 +124,7 @@
               />
             </li>
 
-            <li class="item">
+            <li class="item-work">
               <img
                 src="./images/work/img3.jpg"
                 alt="Работа с цветом"
@@ -139,49 +139,53 @@
         <div class="conteiner">
           <h2 class="title-teams">Наша команда</h2>
 
-          <ul class="teams list">
+          <ul class="teams">
             <li class="card-item">
               <img
-                class="card-photo"
                 src="./images/team/igor.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
               />
-              <h3 class="subtitle-team">Игорь Демьяненко</h3>
-              <p class="text-team">Product Designer</p>
+              <div class="card-user">
+                <h3 class="subtitle-team">Игорь Демьяненко</h3>
+                <p class="text-team">Product Designer</p>
+              </div>
             </li>
 
             <li class="card-item">
               <img
-                class="card-photo"
                 src="./images/team/olga.jpg"
                 alt="Ольга Репина"
                 width="270"
               />
-              <h3 class="subtitle-team">Ольга Репина</h3>
-              <p class="text-team">Frontend Developer</p>
+              <div class="card-user">
+                <h3 class="subtitle-team">Ольга Репина</h3>
+                <p class="text-team">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="card-item">
               <img
-                class="card-photo"
                 src="./images/team/nicholas.jpg"
                 alt="Николай Тарасов"
                 width="270"
               />
-              <h3 class="subtitle-team">Николай Тарасов</h3>
-              <p class="text-team">Marketing</p>
+              <div class="card-user">
+                <h3 class="subtitle-team">Николай Тарасов</h3>
+                <p class="text-team">Marketing</p>
+              </div>
             </li>
 
             <li class="card-item">
               <img
-                class="card-photo"
                 src="./images/team/mykhailo.jpg"
                 alt="Михаил Ермаков"
                 width="270"
               />
-              <h3 class="subtitle-team">Михаил Ермаков</h3>
-              <p class="text-team">UI Designer</p>
+              <div class="card-user">
+                <h3 class="subtitle-team">Михаил Ермаков</h3>
+                <p class="text-team">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -191,12 +195,12 @@
     <!--footer site web studio-->
     <footer class="footer">
       <div class="conteiner footer-nav">
-        <a class="logo" href="./index.html"
+        <a class="logo-footer" href="./index.html"
           >Web<span class="logo-text">Studio</span></a
         >
 
         <address class="address">
-          <ul class="connection list">
+          <ul class="connection">
             <li class="item">
               <a
                 class="link-first"
